@@ -1,0 +1,21 @@
+{
+  "shelf" : [ {
+    "name" : "Differential Equations",
+    "author" : "Alsevich"
+  }, {
+    "name" : "AG Tasks",
+    "author" : "Filipcov"
+  }, {
+    "name" : "Algebra and Geometry",
+    "author" : "Filipcov"
+  }, {
+    "name" : "Mathematician Analysis",
+    "author" : "Levakov"
+  }, {
+    "name" : "Differential Equations",
+    "author" : "Mazanik"
+  }, {
+    "name" : "Mathematician Analysis",
+    "author" : "Mazanik"
+  } ]
+}

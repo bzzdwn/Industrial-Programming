@@ -1,0 +1,31 @@
+Name: "Tufly TommyHillfiger", Date: [10.2020], Count: 91, Price: 10.0.
+Name: "Boots Adidas", Date: [08.2022], Count: 1, Price: 15.01.
+Name: "Opers Adadis", Date: [12.2020], Count: 10, Price: 15.0.
+Name: "Boots Nike", Date: [12.2020], Count: 10, Price: 15.0.
+Name: "Boots Nike", Date: [12.2021], Count: 10, Price: 15.0.
+Name: "Krossovqi Adidas", Date: [10.2022], Count: 8, Price: 32.81.
+
+Name: "Boots Adidas", Date: [08.2022], Count: 1, Price: 15.01.
+Name: "Boots Nike", Date: [12.2020], Count: 10, Price: 15.0.
+Name: "Boots Nike", Date: [12.2021], Count: 10, Price: 15.0.
+Name: "Krossovqi Adidas", Date: [10.2022], Count: 8, Price: 32.81.
+Name: "Opers Adadis", Date: [12.2020], Count: 10, Price: 15.0.
+Name: "Tufly TommyHillfiger", Date: [10.2020], Count: 91, Price: 10.0.
+
+Binary Searched: Name: "Boots Nike", Date: [12.2021], Count: 10, Price: 15.0.
+
+Name: "Tufly TommyHillfiger", Date: [10.2020], Count: 91, Price: 10.0.
+Name: "Boots Adidas", Date: [08.2022], Count: 1, Price: 15.01.
+Name: "Boots Nike", Date: [12.2020], Count: 10, Price: 15.0.
+Name: "Boots Nike", Date: [12.2021], Count: 10, Price: 15.0.
+Name: "Opers Adadis", Date: [12.2020], Count: 10, Price: 15.0.
+Name: "Krossovqi Adidas", Date: [10.2022], Count: 8, Price: 32.81.
+
+Date 12.2020 are :
+Name: "Boots Nike", Date: [12.2020], Count: 10, Price: 15.0.
+Name: "Opers Adadis", Date: [12.2020], Count: 10, Price: 15.0.
+12.2021 : [Name: "Boots Nike", Date: [12.2021], Count: 10, Price: 15.0.]
+10.2020 : [Name: "Tufly TommyHillfiger", Date: [10.2020], Count: 91, Price: 10.0.]
+12.2020 : [Name: "Boots Nike", Date: [12.2020], Count: 10, Price: 15.0., Name: "Opers Adadis", Date: [12.2020], Count: 10, Price: 15.0.]
+10.2022 : [Name: "Krossovqi Adidas", Date: [10.2022], Count: 8, Price: 32.81.]
+08.2022 : [Name: "Boots Adidas", Date: [08.2022], Count: 1, Price: 15.01.]
