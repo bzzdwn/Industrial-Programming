@@ -12,31 +12,31 @@ Build matrix, find increasing & decreasing rows
 ```
 Build matrix, find diagonal with max summ of elements, and out summ of its elements
 ```
-4. 3. Is matrix symmetrical after deleting local maximum
+2. 3. Is matrix symmetrical after deleting local maximum
 ```
 Find local maximas in matrix, delete them and find is matrix symmetrical
 ```
-5. Delete symbol from String
+3. Delete symbol from String
 ```
 Input symbol, find it in String and erase
 ```
-6. Delete comments from txt file
+4. Delete comments from txt file
 ```
 Find comments in String and erase with Determined Automate
 ```
-7. Parse numbers from String
+5. Parse numbers from String
 ```
 Find numbers and String, erase them and out
 ```
-8. BookShelf class w JSON serialization
+6. BookShelf class w JSON serialization
 ```
 BookShelf class with Books with JSON serialization with Jackson
 ```
-9. Matrix JNF calculator w UI
+7. Matrix JNF calculator w UI
 ```
 Build matrix JNF and show it with UI
 ```
-10. BookShelf JavaFX TableView UI
+8. BookShelf JavaFX TableView UI
 ```
 Making UI for task 8
 ```
