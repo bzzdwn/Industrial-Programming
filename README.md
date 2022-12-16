@@ -6,11 +6,11 @@ Find value of sinus func with Telyor Row. Making UnitTests with JUnit.
 ```
 2. 1. Find increasing & decreasing rows in matrix
 ```
-Build matrix 
+Build matrix, find increasing & decreasing rows
 ```
 2. 2. Find summ of max matrix diagonal
 ```
-Build matrix 
+Build matrix, find diagonal with max summ of elements, and out summ of its elements
 ```
 4. 3. Is matrix symmetrical after deleting local maximum
 ```
@@ -22,7 +22,7 @@ Input symbol, find it in String and erase
 ```
 6. Delete comments from txt file
 ```
-Build matrix 
+Find comments in String and erase with Determined Automate
 ```
 7. Parse numbers from String
 ```
