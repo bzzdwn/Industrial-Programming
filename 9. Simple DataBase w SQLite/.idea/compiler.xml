@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TeylorTests" />
-        <module name="1. Teylor Row Sinus Function w UnitTests" />
+        <module name="sql_testing" />
       </profile>
     </annotationProcessing>
   </component>

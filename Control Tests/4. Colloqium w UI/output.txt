@@ -1,0 +1,9 @@
+Name: "StringProperty [value: Boots]", Date: [StringProperty [value: 08.2022]], Count: IntegerProperty [value: 1], Price: DoubleProperty [value: 15.01].
+Name: "StringProperty [value: Boots]", Date: [StringProperty [value: 12.2020]], Count: IntegerProperty [value: 10], Price: DoubleProperty [value: 12.2].
+Name: "StringProperty [value: Boots]", Date: [StringProperty [value: 12.2021]], Count: IntegerProperty [value: 10], Price: DoubleProperty [value: 12.2].
+Name: "StringProperty [value: Krossovqi]", Date: [StringProperty [value: 10.2022]], Count: IntegerProperty [value: 8], Price: DoubleProperty [value: 32.81].
+Name: "StringProperty [value: Opers]", Date: [StringProperty [value: 12.2020]], Count: IntegerProperty [value: 10], Price: DoubleProperty [value: 12.2].
+Name: "StringProperty [value: TEXT]", Date: [StringProperty [value: 06.2021]], Count: IntegerProperty [value: 16], Price: DoubleProperty [value: 19.01].
+Name: "StringProperty [value: Tufly]", Date: [StringProperty [value: 10.2020]], Count: IntegerProperty [value: 91], Price: DoubleProperty [value: 10.2].
+Name: "StringProperty [value: qwe]", Date: [StringProperty [value: 02.2021]], Count: IntegerProperty [value: 12], Price: DoubleProperty [value: 12.01].
+

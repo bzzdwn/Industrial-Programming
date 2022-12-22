@@ -7,9 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RadiansTests {
     @Test
     void MSin1() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(5);
-        assertEquals(formatter.format(Math.sin(-1)), formatter.format(TeylorRow.Teylor(-1, 3)));
+        assertEquals(Math.sin(-1), TeylorRow.Teylor(-1, 3), 0.0001);
     }
     @Test
     void Sin0() {
@@ -18,53 +16,37 @@ public class RadiansTests {
 
     @Test
     void Sin1() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(5);
-        assertEquals(formatter.format(Math.sin(1)), formatter.format(TeylorRow.Teylor(1, 3)));
+        assertEquals(Math.sin(1), TeylorRow.Teylor(1, 3),0.0001);
     }
 
     @Test
     void Sin2() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(5);
-        assertEquals(formatter.format(Math.sin(2)), formatter.format(TeylorRow.Teylor(2, 4)));
+        assertEquals(Math.sin(2), TeylorRow.Teylor(2, 4) ,0.0001);
     }
 
     @Test
     void Sin3() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(5);
-        assertEquals(formatter.format(Math.sin(3)), formatter.format(TeylorRow.Teylor(3, 4)));
+        assertEquals(Math.sin(3), TeylorRow.Teylor(3, 4), 0.0001);
     }
 
     @Test
     void Sin4() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(5);
-        assertEquals(formatter.format(Math.sin(4)), formatter.format(TeylorRow.Teylor(4, 4)));
+        assertEquals(Math.sin(4), TeylorRow.Teylor(4, 4), 0.0001);
     }
     @Test
     void Sin5() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(5);
-        assertEquals(formatter.format(Math.sin(5)), formatter.format(TeylorRow.Teylor(5, 4)));
+        assertEquals(Math.sin(5), TeylorRow.Teylor(5, 4), 0.0001);
     }
     @Test
     void Sin25() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(3);
-        assertEquals(formatter.format(Math.sin(25)), formatter.format(TeylorRow.Teylor(25, 2)));
+        assertEquals(Math.sin(25), TeylorRow.Teylor(25, 2), 0.001);
     }
     @Test
     void Sin69() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(3);
-        assertEquals(formatter.format(Math.sin(69)), formatter.format(TeylorRow.Teylor(69, 2)));
+        assertEquals(Math.sin(69), TeylorRow.Teylor(69, 2),0.001);
     }
     @Test
     void Sin1000() {
-        NumberFormat formatter = NumberFormat.getNumberInstance();
-        formatter.setMaximumFractionDigits(3);
-        assertEquals(formatter.format(Math.sin(1000)), formatter.format(TeylorRow.Teylor(1000, 2)));
+        assertEquals(Math.sin(1000), TeylorRow.Teylor(1000, 2), 0.01);
     }
 }
