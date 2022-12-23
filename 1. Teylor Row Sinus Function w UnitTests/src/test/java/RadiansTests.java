@@ -49,4 +49,28 @@ public class RadiansTests {
     void Sin1000() {
         assertEquals(Math.sin(1000), TeylorRow.Teylor(1000, 2), 0.01);
     }
+    @Test
+    void Sin10000() {
+        assertEquals(Math.sin(10000), TeylorRow.Teylor(10000, 2), 0.01);
+    }
+    @Test
+    void Sin100000() {
+        assertEquals(Math.sin(100000), TeylorRow.Teylor(100000, 2), 0.01);
+    }
+    @Test
+    void Sin1000000() {
+        assertEquals(Math.sin(1000000), TeylorRow.Teylor(1000000, 2), 0.01);
+    }
+    @Test
+    void Sin999999999() {
+        assertEquals(Math.sin(999999999), TeylorRow.Teylor(999999999, 2), 0.01);
+    }
+    @Test
+    void MSin10000() {
+        assertEquals(Math.sin(-10000), TeylorRow.Teylor(-10000, 3), 0.0001);
+    }
+    @Test
+    void MSin1000000() {
+        assertEquals(Math.sin(-1000000), TeylorRow.Teylor(-1000000, 2), 0.0001);
+    }
 }

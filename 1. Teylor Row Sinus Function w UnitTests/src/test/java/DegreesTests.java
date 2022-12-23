@@ -44,4 +44,12 @@ class DegreesTests {
     void Sin100PI() {
         assertEquals(Math.sin((100 * Math.PI)), TeylorRow.Teylor((100 * Math.PI), 3), 0.0001);
     }
+    @Test
+    void Sin1000PI() {
+        assertEquals(Math.sin((1000 * Math.PI)), TeylorRow.Teylor((1000 * Math.PI), 3), 0.0001);
+    }
+    @Test
+    void Sin10000PI() {
+        assertEquals(Math.sin((10000 * Math.PI)), TeylorRow.Teylor((10000 * Math.PI), 3), 0.0001);
+    }
 }

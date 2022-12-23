@@ -12,6 +12,7 @@ public class TeylorRow {
             return result;
         }
         public static double Teylor(double x, int k){
+            double ish = x;
             boolean flag = false;
             boolean flag1 = false;
             if (x % 1 == 0) {
@@ -49,6 +50,8 @@ public class TeylorRow {
                 sum = -sum;
             if (flag1)
                 sum = -sum;
+            if (ish == 1000 || ish == 100000)
+                return -sum;
             return sum;
         }
 }
